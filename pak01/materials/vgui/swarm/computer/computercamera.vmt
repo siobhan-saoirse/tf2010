@@ -1,0 +1,68 @@
+UnlitTwoTexture
+{
+$basetexture _rt_Camera
+"%tooltexture" "dev/dev_monitor"
+$surfaceprop glass
+
+$texture2 "dev/dev_scanline"
+
+$vertexcolor 1
+$one 1
+$zero 0
+$temp 0
+$texoffset "[0 0]"
+$texscale .25
+$tex2offset "[0 0]"
+$tex2scale 1
+$color_clamp 1
+Proxies
+{
+Sine
+{
+resultVar "$color[0]"
+sineperiod 1
+sinemin .9
+sinemax .92
+}
+Sine
+{
+resultVar "$color[1]"
+sineperiod .01
+sinemin .9
+sinemax 1
+}
+
+GaussianNoise
+{
+mean "-.002"
+halfwidth ".001"
+resultVar "$texoffset[1]"
+}
+TextureTransform
+{
+translateVar $texoffset
+resultVar $basetexturetransform
+}
+
+Sine
+{
+resultVar "$tex2offset[1]"
+sineperiod 12
+sinemin -3
+sinemax 3
+}
+Sine
+{
+resultVar $tex2scale
+sineperiod 2
+sinemin .7
+sinemax .9
+}
+TextureTransform
+{
+scaleVar $tex2scale
+translateVar $tex2offset
+resultVar $texture2transform
+}
+}
+}

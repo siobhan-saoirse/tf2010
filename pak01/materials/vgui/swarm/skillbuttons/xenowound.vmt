@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+$basetexture "vgui\swarm\SkillButtons\Xenowound"
+$surfaceprop metal
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

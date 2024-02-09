@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+$basetexture "vgui\swarm\medals\medal38"
+$translucent 1
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

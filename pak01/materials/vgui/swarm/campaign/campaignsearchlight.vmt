@@ -1,0 +1,24 @@
+UnlitGeneric
+{
+$basetexture "vgui\swarm\Campaign\CampaignSearchlight"
+$translucent 1
+$surfaceprop metal
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+$rotateoffset 0
+$alpha 0.5
+Sine
+{
+sineperiod 64
+sinemin -30
+sinemax 30
+resultVar $rotateoffset
+}
+TextureTransform
+{
+rotateVar $rotateoffset
+resultVar $basetexturetransform
+}
+}

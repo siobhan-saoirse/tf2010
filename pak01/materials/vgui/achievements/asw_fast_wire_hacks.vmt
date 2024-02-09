@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+$baseTexture "vgui\achievements/ASW_FAST_WIRE_HACKS"
+$translucent 1
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

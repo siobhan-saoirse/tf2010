@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+$basetexture "vgui\swarm\ClassIcons\NCOClassIcon"
+$translucent 1
+$surfaceprop metal
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+$clamps 1
+$clampt 1
+}

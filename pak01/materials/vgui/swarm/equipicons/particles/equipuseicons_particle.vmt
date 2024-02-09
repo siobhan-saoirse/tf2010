@@ -1,0 +1,21 @@
+Spritecard
+{
+$basetexture "vgui\swarm\EquipIcons\particles\equipuseicons_particle"
+$translucent 1
+$distancealpha 1
+$softedges 1
+$edgesoftnessstart .6
+$edgesoftnessend .4
+$scaleedgesoftnessbasedonscreenres 1
+$glow 1
+$glowcolor "[128 128 255]"
+$glowalpha .6
+$glowstart .1
+$glowend .3
+
+
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+
+}

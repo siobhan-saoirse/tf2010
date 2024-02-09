@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+$baseTexture "vgui\achievements/ASW_HARD_CAMPAIGN"
+$translucent 1
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

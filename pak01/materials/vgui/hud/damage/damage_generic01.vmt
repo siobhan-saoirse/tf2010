@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+$translucent 1
+$basetexture "VGUI/hud/damage/damage_generic01"
+$vertexcolor 1
+$vertexalpha 1
+$ignorez 1
+$additive 1
+}

@@ -1,0 +1,44 @@
+UnlitGeneric
+{
+$basetexture "swarm/effects/ASWTVNoise"
+$surfaceprop glass
+$vertexcolor 1
+$vertexalpha 1
+$ignorez 1
+$texoffset "[0 0]"
+
+Proxies
+{
+
+Sine
+{
+resultVar "$color[0]"
+sineperiod 1
+sinemin .9
+sinemax .9
+}
+Sine
+{
+resultVar "$color[1]"
+sineperiod .01
+sinemin .9
+sinemax 1
+}
+
+LinearRamp
+{
+resultVar "$texoffset[0]"
+rate 500
+}
+LinearRamp
+{
+resultVar "$texoffset[1]"
+rate -.2
+}
+TextureTransform
+{
+translateVar $texoffset
+resultVar $basetexturetransform
+}
+}
+}
